@@ -99,8 +99,9 @@
 }
 
 .header h1 {
-  font-size: clamp(1px, 7vw, 3em);
+  font-size: clamp(2.5em, 7vw, 3em);
   font-family: var(--hightlight-font);
+  text-align: center;
 }
 
 .header .button-container {
@@ -269,6 +270,10 @@
   .services .box-section {
     flex-direction: column;
     gap: 50px;
+  }
+
+  .services .box-section .box {
+    max-width: 100%;
   }
 
   .featured {
